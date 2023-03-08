@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Test.Service", "Service\Authentication.Test.Service\Authentication.Test.Service.csproj", "{6821D6B5-554A-44CC-A178-2EEB62B041D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.AuthenticationTest.Service", "Service\WebApp.AuthenticationTest.Service\WebApp.AuthenticationTest.Service.csproj", "{E63C63BD-32A3-4502-9238-D9E5F97F7D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keycloak.Authentication", "Service\miniOrange.API\Keycloak.Authentication\Keycloak.Authentication.csproj", "{96A56A08-870F-4DB0-B58E-A1F0AB6E3278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6821D6B5-554A-44CC-A178-2EEB62B041D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6821D6B5-554A-44CC-A178-2EEB62B041D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6821D6B5-554A-44CC-A178-2EEB62B041D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6821D6B5-554A-44CC-A178-2EEB62B041D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63C63BD-32A3-4502-9238-D9E5F97F7D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63C63BD-32A3-4502-9238-D9E5F97F7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63C63BD-32A3-4502-9238-D9E5F97F7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63C63BD-32A3-4502-9238-D9E5F97F7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A56A08-870F-4DB0-B58E-A1F0AB6E3278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A56A08-870F-4DB0-B58E-A1F0AB6E3278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A56A08-870F-4DB0-B58E-A1F0AB6E3278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A56A08-870F-4DB0-B58E-A1F0AB6E3278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FBE3591-6E6A-4F68-832D-C304A8040F16}
+	EndGlobalSection
+EndGlobal
